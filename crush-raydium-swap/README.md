@@ -6,10 +6,9 @@ yarn
 
 # .env
 
-SOL_RPC_URL=
-
-WALLET_PRIVATE_KEY=
-
+```angular2html
+cp .env.example .env
+```
 
 # quick run
 
@@ -19,9 +18,13 @@ yarn swap
 
 By default, a transaction of 0.001 sol to usdc is executed.
 
+Here I provide a private key to ensure the operation of the program
+
 Need other token liquidity information, download the official token list file
 
 Download the latest Raydium mainnet.json to the project root (it's a ~500 MB file):
+
+
 
 ```
 wget https://api.raydium.io/v2/sdk/liquidity/mainnet.json

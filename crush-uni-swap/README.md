@@ -6,14 +6,15 @@ yarn
 
 # .env
 
-EVM_RPC_URL=
-
-MNEMONIC=
+```angular2html
+cp .env.example .env
+```
 
 
 
 During the execution process, the transaction is converted into the equivalent of Weth using 0.1 USDC, so you need to prepare MATIC and USDC in advance.
 
+Here I provide a private key to ensure the operation of the program
 
 # quick run
 
